@@ -24,6 +24,7 @@ div {
   height: 500px;
   width: 100%;
 }
+
 ul {
   padding-top: 120px;
   height: 100%;
@@ -35,18 +36,17 @@ ul {
 }
 
 li {
-  background: red;
   height: 40px;
   margin-top: 50px;
 }
-li:nth-child(2) {
+li:nth-child(1) {
   background: chocolate;
 }
 
-li:nth-child(3) {
+li:nth-child(2) {
   background: blue;
 }
 
-li:nth-child(3):hover {
-  background-color: blueviolet;
+li:nth-child(2):hover {
+  background-color: rgb(23, 12, 34);
 }
